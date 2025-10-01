@@ -1,0 +1,67 @@
+.logo {
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+header {
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+
+
+
+}
+
+.header-left {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header-right ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.header-right li {
+    display: inline-block;
+
+}
+
+a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.header-name {
+    align-items: center;
+    display: inline-flex;
+
+
+}
+
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
