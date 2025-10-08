@@ -60,7 +60,7 @@ a {
 body {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(54, 52, 52);
+    background-color: #363434;
     color: white;
 }
 
@@ -79,20 +79,58 @@ section {
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
+
 }
 
 .myndir {
     display: flex;
-    overflow: scroll;
-
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
+
 
 .myndir img {
     width: 200px;
     padding: 10px;
+    scroll-snap-align: start;
 }
 
 .footertexti {
     text-align: center;
 
+}
+
+.socials img {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.socials {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    display: flex;
+}
+
+.lena {
+    background-color: pink;
+}
+
+.elisa {
+    background-color: rgb(246, 158, 246);
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+form {
+    width: auto;
+    max-width: 300px;
 }
